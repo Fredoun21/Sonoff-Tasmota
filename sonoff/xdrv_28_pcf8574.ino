@@ -27,8 +27,8 @@
 
 #define XDRV_28           28
 
-#define PCF8574_ADDR1     0x20  // PCF8574
-#define PCF8574_ADDR2     0x38  // PCF8574A
+#define PCF8574_ADDR1     0x40  // PCF8574
+#define PCF8574_ADDR2     0x41  // PCF8574A
 
 struct PCF8574 {
   int error;
